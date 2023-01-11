@@ -3,7 +3,13 @@
     padding: 0;
 }
 
+html,body {
+        min-height: 100vh;
+}
 
 .container {
     display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 3fr;
 }
+

@@ -17,7 +17,10 @@ html,body,.container {
 a {
     text-decoration: none;
     color: black;
-    font-size: 23px;
+}
+
+.sidebar-nav {
+
 }
 
 
@@ -45,6 +48,9 @@ a {
     display: grid;
     grid-template-rows: repeat(6, minmax(100px, 1fr));
     place-self: center;
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
 }
 
 .sidebar-nav > a {
@@ -68,6 +74,18 @@ a {
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+.sidebar-settings {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sidebar-settings > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .header {
     grid-column: 2 / 3;

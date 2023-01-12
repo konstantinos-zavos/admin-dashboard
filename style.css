@@ -13,6 +13,7 @@ html,body,.container {
     grid-template-columns: 0.5fr 2fr 2fr;
     grid-template-rows: 0.10fr ;
     background-color: #FAFAFA;
+    gap: 10px;
 }
 
 a {
@@ -101,11 +102,24 @@ a {
     background-color: #FFF0F5;
     display: grid;
     grid-template-columns: 3fr 1fr;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.header > h1 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
 }
 
 .user {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    align-content: center;
+    place-items: center;
 }
 
 .dummy-card {

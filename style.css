@@ -11,6 +11,7 @@ html,body,.container {
 .container {
     display: grid;
     grid-template-columns: 0.5fr 2fr 2fr;
+    grid-template-rows: 0.10fr ;
     background-color: #FAFAFA;
 }
 
@@ -98,6 +99,13 @@ a {
 .header {
     grid-column: 2 / 4;
     background-color: #FFF0F5;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.user {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .dummy-card {

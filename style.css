@@ -37,7 +37,7 @@ a {
     background-color: #FAFAFA;
     display: grid;
     grid-template-rows: 1fr 5fr 1fr;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     align-items: center;
 }
 
@@ -78,6 +78,8 @@ a {
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
     font-weight: bold;
+    border-left: 10px #316290;
+    border-left-style:solid;
 }
 
 .sidebar-settings {
@@ -94,9 +96,11 @@ a {
 
 .header {
     grid-column: 2 / 3;
+    background-color: #FFF0F5;
 }
 
 .dummy-card {
     grid-column: 2 / 3;
+    background-color: #FFF0F5;
 }
 

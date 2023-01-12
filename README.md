@@ -1,6 +1,5 @@
-# admin-dashboard
-
-# Useful links
+# Admin dashboard project
+## Useful links
 
 * Color scheme: https://www.schemecolor.com/calming-gray-white.php
 

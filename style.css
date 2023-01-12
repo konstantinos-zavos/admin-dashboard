@@ -64,8 +64,12 @@ a {
 }
 
 
-/* .sidebar-nav > a:hover,
-.sidebar-nav > a:active, */
+.sidebar-nav > a:hover,
+.sidebar-nav > a:active,
+.sidebar-settings > a:hover {
+    font-weight: bold;
+}
+
 .sidebar-nav > .target {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -73,6 +77,7 @@ a {
     background-color: #EDECEB;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    font-weight: bold;
 }
 
 .sidebar-settings {
@@ -94,3 +99,4 @@ a {
 .dummy-card {
     grid-column: 2 / 3;
 }
+

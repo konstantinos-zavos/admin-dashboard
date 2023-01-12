@@ -5,6 +5,7 @@
 
 html,body,.container {
     min-height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .container {
@@ -16,6 +17,18 @@ html,body,.container {
 a {
     text-decoration: none;
     color: black;
+    font-size: 23px;
+}
+
+
+.logo-container {
+    background-color: #EDECEB;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: 10px;
 }
 
 .sidebar {
@@ -36,8 +49,13 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 10vw;
+    width: 20vw;
 }
+
+.fa {
+    padding: 10px;
+}
+
 
 .sidebar-nav > a:hover,
 .sidebar-nav > a:active {
@@ -46,16 +64,8 @@ a {
     justify-content: center;
     background-color: #EDECEB;
     border-radius: 20px;
-}
 
-.logo-container {
-    background-color: #EDECEB;
-    padding: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
 
 .header {
     grid-column: 2 / 3;

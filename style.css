@@ -10,19 +10,24 @@ html,body,.container {
 .container {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    background-color: #FFF9CF;
+    background-color: #FAFAFA;
 }
 
 
 .sidebar {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
-    background-color: #5693F6;
+    background-color: #FAFAFA;
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr;
 }
 
 .logo-container {
-    background-color: #230C63;
+    background-color: #EDECEB;
     padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 

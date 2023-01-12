@@ -128,5 +128,8 @@ a {
 }
 
 .card-grid {
-    background-color: #FFF0F5
+    background-color: #FFF0F5;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(3, 1fr);
 }

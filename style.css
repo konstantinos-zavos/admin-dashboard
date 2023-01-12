@@ -10,7 +10,7 @@ html,body,.container {
 
 .container {
     display: grid;
-    grid-template-columns: 0.5fr 3fr;
+    grid-template-columns: 0.5fr 2fr 2fr;
     background-color: #FAFAFA;
 }
 
@@ -96,7 +96,7 @@ a {
 
 
 .header {
-    grid-column: 2 / 3;
+    grid-column: 2 / 4;
     background-color: #FFF0F5;
 }
 
@@ -105,3 +105,6 @@ a {
     background-color: #FFF0F5;
 }
 
+.card-grid {
+    background-color: #FFF0F5
+}

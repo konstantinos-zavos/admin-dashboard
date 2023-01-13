@@ -147,8 +147,9 @@ a {
     flex-direction: column;
     align-items: flex-start;
     justify-content: start;
-    gap: 20px;
+    gap: 10px;
     padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
 
 .dummy-card > h1 {
@@ -174,9 +175,21 @@ a {
     background-color: #FFF0F5;
     background-color: #EDECEB;
     padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.card > h1 {
+    padding: 10px;
 }
 
 .test-small-card {
+    grid-column: 1 / 2;
+    background-color: #EDECEB;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.test-small-card > h1 {
     grid-column: 1 / 2;
     background-color: #EDECEB;
     padding: 10px;

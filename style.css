@@ -44,7 +44,7 @@ a {
 .sidebar {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-    background-color: #FAFAFA;
+    background-color: #f1f1f131;
     display: grid;
     grid-template-rows: 3fr 0fr 0.5fr;
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */

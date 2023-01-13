@@ -195,7 +195,9 @@ a {
     background-color: #EDECEB;
     padding: 10px;
 }
-/* 
-.extra-graph {
-    grid-column: 2 / 3;
-} */
+
+.small-card-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
